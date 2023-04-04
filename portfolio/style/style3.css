@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap');
+
+:root {
+    --white: #ffffff;
+    --body: #545d6d;
+    --dark: #202631;
+    --border-color: rgba(0, 0, 0, 0.10);
+    --border-width: 1px;
+    --border-radius: 30px;
+}
+body{
+    background-color: var(--dark);
+}
+.contactform
+{   
+    display: flex;
+    font-family:'Roboto Slab', serif ;
+      background:url('..\footer1.jpg');
+    height:80vh;  
+    padding:34px 0;
+    justify-content: center;
+    flex-direction: column;  
+}
+.contactform h1
+{
+  font-family:'Roboto Slab', serif ;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  margin:23px;
+}
+.contactform div{
+      padding:10px 0px;
+}
+.contactform form div
+{
+   padding:3px 34px;
+}
+.contactform form div input
+{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding:5px 8px;
+ 
+  
+}
+.form-label
+{
+  font-size:20px;
+  font-weight: 500;
+  color:white;
+}
+#emailHelp
+{
+    font-size: 15px;
+    color:midnightblue;
+    margin: 0px 8px;
+    font-weight: bold;
+}
+form{
+    border:solid black 2px;
+   background-color: var(--body);
+    margin:30px auto;
+    width:500px;
+    height:450px;
+    padding:40px 30px;
+    border-radius: 23px;
+}
+form:hover{
+    border:solid black 2px;
+   background-color: var(--body);
+    margin:30px auto;
+     width:600px;
+     height:450px;
+     padding:30px 30px;
+    border-radius: 23px;
+    transition:all 0.5s ease-in-out;
+}
+.mb-3
+{
+    display:flex;
+    flex-direction: column;
+}
+  
+.btn-primary
+{
+    border:solid 2px black;
+    color:black;
+    font-family:'Roboto Slab', serif ;
+    font-weight: bold; 
+    display: inline-block;
+    padding:6px 18px;
+    margin:15px auto;
+    background-color:wheat;
+    border-radius:20px;
+}
+ form .mb-3 #msg
+ {
+    height:60px;
+ }
+ 
